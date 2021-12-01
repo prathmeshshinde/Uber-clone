@@ -10,7 +10,7 @@ const Map = (props) => {
     const map = new mapboxgl.Map({
       container: "map", // container ID
       style: "mapbox://styles/mapbox/streets-v11", // style URL
-      center: [-99.29011, 39.39172], // starting position [lng, lat]
+      center: [76.3571538571062, 19.75554191457], // starting position [lng, lat]
       zoom: 3, // starting zoom
     });
 
