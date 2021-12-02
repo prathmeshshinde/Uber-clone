@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import tw from "tailwind-styled-components";
 import mapboxgl from "!mapbox-gl";
-import Map from "./components/map";
+import Map from "../components/Map";
 import Link from "next/link";
 import { auth } from "../firebase";
 import { onAuthStateChanged, signOut } from "@firebase/auth";
