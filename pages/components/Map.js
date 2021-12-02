@@ -38,11 +38,3 @@ export default Map;
 const Wrapper = tw.div`
 flex-1 h-1/2 
 `;
-
-const ButtonBackContainer = tw.div`
-px-4 bg-transparent 
-`;
-
-const BackButtonConfirm = tw.img`
-h-12 w-12 bg-red-500 rounded-full
-`;
